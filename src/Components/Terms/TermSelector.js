@@ -1,5 +1,5 @@
 import React from'react';
-import { terms } from '../../Utilities';
+import { terms } from '../../Utilities/Utilities';
 import { TermButton } from './TermButton';
 
 
