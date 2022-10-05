@@ -11,7 +11,7 @@ const scheduleChanged = (selected, courses) => (
 export const CourseList = ({ courses }) => {
     const [term, setTerm] = useState('Fall');
     const [selected, setSelected] = useState([]);
-   console.log(courses,'corsi')
+   
     if (scheduleChanged(selected, courses)) {
       setSelected([])
     };
